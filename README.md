@@ -27,3 +27,7 @@ Esse serviço RESTful retorna apenas uma String contendo um Pronome
  
 Esse projeto é um exemplo do uso do Eureka-Server para recuperar as informaçoes necessárias dos clientes e posterior consumo. Ele necessita acessar os serviços RESTful disponibilizados pelos clientes acima (Pronome e Adjetivo).
 Ao subir esse serviço, ele irá expor um serviço RESTful /palavra. Esse exibe uma String contendo um Pronome e um Adjetivo recuperados respectivamentes dos clientes. A URL utilizada para o consumo dos clients foi obtida a partir do servidor do Eureka.
+
+Abaixo segue o macro diagrama dos projetos:
+
+![Modelo de Dados](https://github.com/arturbdr/SpringCloudEureka/blob/master/documentacao/img/descricaoProjetos .png "")
